@@ -1,0 +1,3 @@
+[submodule "Assets/AmmachiLabsCore"]
+	path = Assets/AmmachiLabsCore
+	url = https://github.com/Ammachi-labs-VR-Unity/M_AmmachiLabs-Module.git
