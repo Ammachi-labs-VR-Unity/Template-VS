@@ -33,6 +33,7 @@ public class LidScrew : MonoBehaviour
                     box2.SetActive(false);
                     screwdriver.SetActive(true);
                     environment.SetActive(true);
+                    screw1.enabled = false;
 
                     animator.Play(anima, 0, 0f);
                     StartCoroutine(WaitForAnimation());
@@ -54,7 +55,6 @@ public class LidScrew : MonoBehaviour
 
         Debug.Log("Animation finished!");
 
-        screw1.enabled = false;
         panel.SetActive(true);
         nextbutton.SetActive(true);
     }

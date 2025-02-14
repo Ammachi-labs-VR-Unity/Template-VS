@@ -52,6 +52,16 @@ public class ClothScript : MonoBehaviour
                 faucet.enabled = true;
             }
         }
+
+        else if (other.gameObject.CompareTag("filter"))
+        {
+            FaucetColour faucet = other.gameObject.GetComponent<FaucetColour>();
+
+            if (faucet != null && !faucet.enabled)
+            {
+                faucet.enabled = true;
+            }
+        }
     }
 
     private void OnDisable()

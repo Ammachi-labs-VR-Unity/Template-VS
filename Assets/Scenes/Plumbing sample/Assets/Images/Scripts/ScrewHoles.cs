@@ -98,10 +98,20 @@ public class ScrewHoles : MonoBehaviour
                 ResumeHoldAnimation();
             }
         }
+
         else if (isDrillHeld && !Input.GetMouseButton(0))
         {
             isDrillHeld = false;
             PauseHoldAnimation();
+        }
+
+        if (isHoldAnimationPlaying)
+        {
+            AnimatorStateInfo stateInfo = targetAnimator.GetCurrentAnimatorStateInfo(0);
+            if (stateInfo.IsName(positionType == "left" ? leftHoldAnimation : rightHoldAnimation) && stateInfo.normalizedTime >= 1.0f)
+            {
+                PlayFinalAnimation();
+            }
         }
 
         if (leftCompleted && rightCompleted && nextButton != null)
@@ -141,7 +151,6 @@ public class ScrewHoles : MonoBehaviour
                 targetAnimator.Play(holdAnimation, 0, holdAnimationProgress);
                 targetAnimator.speed = 1;
                 isHoldAnimationPlaying = true;
-                Invoke(nameof(PlayFinalAnimation), 4.0f);
             }
         }
     }
