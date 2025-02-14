@@ -2,19 +2,19 @@ using UnityEngine;
 using System.Collections;
 
 public class FilterScript : MonoBehaviour
-{
+{     
+    public Animator firstAnimator;
     public string firstAnimation = "FirstAnim";
-    public GameObject secondObject;
+    public GameObject secondObject;    
+    public Animator secondAnimator;
     public string secondAnimation = "SecondAnim";
     public GameObject objectToActivate;
 
-    private Animator firstAnimator;
     public Collider objectCollider;
-    private Animator secondAnimator;
 
     void Start()
     {
-        firstAnimator = GetComponent<Animator>();
+
         objectCollider = GetComponent<Collider>();
 
         if (secondObject)
@@ -30,12 +30,9 @@ public class FilterScript : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
             {
-                if (hit.collider.gameObject == gameObject)
-                {
-                    StartCoroutine(PlayAnimations());
-                }
+                StartCoroutine(PlayAnimations());
             }
         }
     }
@@ -44,12 +41,12 @@ public class FilterScript : MonoBehaviour
     {
         if (firstAnimator)
         {
-            if (objectCollider) objectCollider.enabled = false;
-
+            objectCollider.enabled = false;
             firstAnimator.Play(firstAnimation);
 
-            yield return new WaitForSeconds(firstAnimator.GetCurrentAnimatorStateInfo(0).length);
+            yield return new WaitUntil(() => firstAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0);
 
+            yield return new WaitForSeconds(firstAnimator.GetCurrentAnimatorStateInfo(0).length);
             yield return new WaitForSeconds(1f);
         }
 
@@ -57,10 +54,11 @@ public class FilterScript : MonoBehaviour
         {
             secondAnimator.Play(secondAnimation);
 
+            yield return new WaitUntil(() => secondAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0);
             yield return new WaitForSeconds(secondAnimator.GetCurrentAnimatorStateInfo(0).length);
         }
 
-        if (objectCollider) objectCollider.enabled = true;
+        objectCollider.enabled = true;
 
         if (objectToActivate) objectToActivate.SetActive(true);
     }
