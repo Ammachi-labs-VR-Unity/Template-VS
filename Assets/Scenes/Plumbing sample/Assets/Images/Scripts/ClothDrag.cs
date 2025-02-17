@@ -8,6 +8,11 @@ public class ClothDrag : MonoBehaviour
     private Vector3 offset;
     private float zDistance;
 
+    [Header("Movement Constraints")]
+    public float minX = -5f, maxX = 5f;
+    public float minY = 0f, maxY = 10f;
+    public float minZ = -5f, maxZ = 5f;
+
     void Start()
     {
         activeCamera = Camera.main;
@@ -45,7 +50,7 @@ public class ClothDrag : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider !=null && hit.collider.gameObject == gameObject)
+            if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
                 isDragging = true;
                 zDistance = activeCamera.WorldToScreenPoint(transform.position).z;
@@ -57,7 +62,12 @@ public class ClothDrag : MonoBehaviour
     void DragObjectWithMouse()
     {
         Vector3 newPosition = GetMouseWorldPosition() + offset;
-        transform.position = new Vector3(transform.position.x, newPosition.y, newPosition.z);
+
+        newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);
+        newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
+        newPosition.z = Mathf.Clamp(newPosition.z, minZ, maxZ);
+
+        transform.position = newPosition;
     }
 
     Vector3 GetMouseWorldPosition()

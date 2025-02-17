@@ -53,8 +53,9 @@ public class SpiritDrag : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
                 isDragging = true;
-                zDistance = activeCamera.WorldToScreenPoint(transform.position).z;
-                offset = transform.position - GetMouseWorldPosition();
+                zDistance = activeCamera.WorldToScreenPoint(hit.point).z;
+
+                offset = transform.position - activeCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, zDistance));
             }
         }
     }
@@ -62,6 +63,7 @@ public class SpiritDrag : MonoBehaviour
     void DragObjectWithMouse()
     {
         Vector3 newPosition = GetMouseWorldPosition() + offset;
+
         transform.position = new Vector3(transform.position.x, newPosition.y, newPosition.z);
     }
 

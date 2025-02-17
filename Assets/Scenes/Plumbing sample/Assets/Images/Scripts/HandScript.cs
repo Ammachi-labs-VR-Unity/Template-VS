@@ -8,6 +8,7 @@ public class HandScript : MonoBehaviour
     public GameObject screwdriverPanel;
     public GameObject nextButton;
     public GameObject waterflow;
+    public Collider handcollider;
 
     void Start()
     {
@@ -28,6 +29,7 @@ public class HandScript : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     animator.Play(animationname);
+                    handcollider.enabled = false;
                     StartCoroutine(WaitForAnimation());
                 }
             }

@@ -15,8 +15,6 @@ public class FilterScript : MonoBehaviour
     void Start()
     {
 
-        objectCollider = GetComponent<Collider>();
-
         if (secondObject)
         {
             secondAnimator = secondObject.GetComponent<Animator>();

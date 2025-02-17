@@ -10,6 +10,7 @@ public class HandScript2 : MonoBehaviour
     public GameObject nextButton;
     public GameObject waterflow;
     public UnityEvent success;
+    public Collider handcollider;
 
     void Start()
     {
@@ -30,6 +31,7 @@ public class HandScript2 : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     animator.Play(animationname);
+                    handcollider.enabled = false;
                     StartCoroutine(WaitForAnimation());
                 }
             }
