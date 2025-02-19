@@ -14,6 +14,7 @@ public class SpiritDrag : MonoBehaviour
     private Collider objectCollider;
     public GameObject markerball;
     public UnityEvent spiritscale;
+    public HintRemove hintr;
 
 
     void Start()
@@ -84,6 +85,7 @@ public class SpiritDrag : MonoBehaviour
 
     IEnumerator DisableColliderAndInvokeEvent()
     {
+        hintr.hintdis();
         yield return new WaitForSeconds(0.5f);
 
         if (objectCollider != null)

@@ -6,6 +6,7 @@ public class Batterybox_top_lid : MonoBehaviour
     public Animator batteryBoxAnimator;
     public string animstring;
     public GameObject camdis;
+    public HintRemove hintr;
     void Start()
     {
         batteryBoxAnimator = GetComponent<Animator>();
@@ -22,6 +23,7 @@ public class Batterybox_top_lid : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
                     batteryBoxAnimator.Play(animstring);
                     staticbattery.SetActive(true);
                     camdis.SetActive(false);

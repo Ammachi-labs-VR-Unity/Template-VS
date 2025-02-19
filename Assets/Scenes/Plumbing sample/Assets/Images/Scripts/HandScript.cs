@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class HandScript : MonoBehaviour
@@ -9,6 +10,10 @@ public class HandScript : MonoBehaviour
     public GameObject nextButton;
     public GameObject waterflow;
     public Collider handcollider;
+    public HintRemove hintr;
+    public Button hintbtn;
+    public AudioSource waterAudio;
+
 
     void Start()
     {
@@ -28,6 +33,8 @@ public class HandScript : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
+                    hintbtn.interactable = false;
                     animator.Play(animationname);
                     handcollider.enabled = false;
                     StartCoroutine(WaitForAnimation());
@@ -45,10 +52,19 @@ public class HandScript : MonoBehaviour
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && !animator.IsInTransition(0));
 
         waterflow.SetActive(true);
+        PlayWaterSound();
 
         yield return new WaitForSeconds(2);
 
         screwdriverPanel.SetActive(true);
         nextButton.SetActive(true);
+    }
+
+    void PlayWaterSound()
+    {
+        if (waterAudio != null && !waterAudio.isPlaying)
+        {
+            waterAudio.Play();
+        }
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class FilterScript : MonoBehaviour
@@ -11,6 +12,8 @@ public class FilterScript : MonoBehaviour
     public GameObject objectToActivate;
 
     public Collider objectCollider;
+    public HintRemove hintr;
+    public Button hintbtn;
 
     void Start()
     {
@@ -30,6 +33,8 @@ public class FilterScript : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
             {
+                hintr.hintdis();
+                hintbtn.interactable = false;
                 StartCoroutine(PlayAnimations());
             }
         }

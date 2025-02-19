@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class HandScript2 : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class HandScript2 : MonoBehaviour
     public GameObject waterflow;
     public UnityEvent success;
     public Collider handcollider;
+    public HintRemove hintr;
+    public Button hintbtn;
+    public AudioSource waterAudio;
 
     void Start()
     {
@@ -30,6 +34,8 @@ public class HandScript2 : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
+                    hintbtn.interactable = false;
                     animator.Play(animationname);
                     handcollider.enabled = false;
                     StartCoroutine(WaitForAnimation());
@@ -47,11 +53,20 @@ public class HandScript2 : MonoBehaviour
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && !animator.IsInTransition(0));
 
         waterflow.SetActive(true);
+        PlayWaterSound();
         success.Invoke();
 
         yield return new WaitForSeconds(2);
 
         screwdriverPanel.SetActive(true);
         nextButton.SetActive(true);
+    }
+    
+    void PlayWaterSound()
+    {
+        if (waterAudio != null && !waterAudio.isPlaying)
+        {
+            waterAudio.Play();
+        }
     }
 }

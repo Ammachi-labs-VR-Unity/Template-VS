@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class ConnectionScript : MonoBehaviour
@@ -8,6 +9,8 @@ public class ConnectionScript : MonoBehaviour
     public string animationname;
     public GameObject screwdriverPanel;
     public GameObject nextButton;
+    public HintRemove hintr;
+    public Button hintbtn;
 
     void Start()
     {
@@ -26,6 +29,8 @@ public class ConnectionScript : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
+                    hintbtn.interactable = false;
                     wrench.SetActive(true);
                     animator.Play(animationname);
                     StartCoroutine(WaitForAnimation());

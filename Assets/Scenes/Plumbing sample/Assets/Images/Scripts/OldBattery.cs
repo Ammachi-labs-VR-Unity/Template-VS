@@ -41,11 +41,8 @@ public class OldBattery : MonoBehaviour
                     {
                         Debug.Log("Animation Triggered: " + animationname);
 
-                        // Force animation restart
                         animator.Play(animationname, 0, 0f);
                         Collider.enabled = false;
-                        // Or use CrossFade for better transition handling
-                        // animator.CrossFade(animationname, 0.1f);
 
                         StartCoroutine(WaitForAnimation());
                     }
@@ -56,7 +53,7 @@ public class OldBattery : MonoBehaviour
 
     private IEnumerator WaitForAnimation()
     {
-        yield return null; // Wait 1 frame to ensure animation starts
+        yield return null;
 
         AnimatorStateInfo animationState = animator.GetCurrentAnimatorStateInfo(0);
         Debug.Log("Animation State Detected: " + animationState.fullPathHash);

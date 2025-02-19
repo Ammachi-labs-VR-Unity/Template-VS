@@ -7,6 +7,7 @@ public class FaucetHoseScript : MonoBehaviour
     public string animationname;
     public GameObject screwdriverPanel;
     public GameObject nextButton;
+    public HintRemove hintr;
 
     void Start()
     {
@@ -26,6 +27,7 @@ public class FaucetHoseScript : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
                     animator.Play(animationname);
                     StartCoroutine(WaitForAnimation());
                 }

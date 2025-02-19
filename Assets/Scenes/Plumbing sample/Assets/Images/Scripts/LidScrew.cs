@@ -12,11 +12,8 @@ public class LidScrew : MonoBehaviour
     public GameObject nextbutton;
     public GameObject box2;
     public Collider screw1;
-
-    void Start()
-    {
-        
-    }
+    public HintRemove hintr;
+    public AudioSource screwAudio;
 
     void Update()
     {
@@ -29,13 +26,15 @@ public class LidScrew : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
-                    cam.SetActive(true);                    
+                    hintr.hintdis();
+                    cam.SetActive(true);
                     box2.SetActive(false);
                     screwdriver.SetActive(true);
                     environment.SetActive(true);
                     screw1.enabled = false;
 
                     animator.Play(anima, 0, 0f);
+                    PlayScrewSound();
                     StartCoroutine(WaitForAnimation());
                 }
             }
@@ -44,18 +43,29 @@ public class LidScrew : MonoBehaviour
 
     private IEnumerator WaitForAnimation()
     {
-        yield return null; 
-
-        AnimatorStateInfo animationState = animator.GetCurrentAnimatorStateInfo(0);
-        Debug.Log("Animation State Detected: " + animationState.fullPathHash);
-
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName(anima));
 
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && !animator.IsInTransition(0));
 
         Debug.Log("Animation finished!");
-
+        StopScrewSound();
         panel.SetActive(true);
         nextbutton.SetActive(true);
+    }
+
+    void PlayScrewSound()
+    {
+        if (screwAudio != null && !screwAudio.isPlaying)
+        {
+            screwAudio.Play();
+        }
+    }
+
+    void StopScrewSound()
+    {
+        if (screwAudio != null && screwAudio.isPlaying)
+        {
+            screwAudio.Stop();
+        }
     }
 }

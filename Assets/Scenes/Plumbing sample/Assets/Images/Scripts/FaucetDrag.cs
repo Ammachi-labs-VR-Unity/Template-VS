@@ -13,6 +13,7 @@ public class FaucetDrag : MonoBehaviour
     public float snapThreshold = 0.2f;
     private Collider objectCollider;
     public GameObject quizenable;
+    public HintRemove hintr;
 
 
     void Start()
@@ -73,14 +74,13 @@ public class FaucetDrag : MonoBehaviour
         if (distance <= snapThreshold)
         {
             transform.position = snapTarget.position;
-            Debug.Log("Object snapped to target. Collider will be disabled in 2 seconds.");
-
             StartCoroutine(DisableColliderAndInvokeEvent());
         }
     }
 
     IEnumerator DisableColliderAndInvokeEvent()
     {
+        hintr.hintdis();
         yield return new WaitForSeconds(2f);
 
         if (objectCollider != null)

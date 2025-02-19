@@ -6,6 +6,7 @@ public class BatteryLid : MonoBehaviour
     public GameObject activateObject;
     public GameObject deactivateObject;
     public GameObject cameraObject;
+    public HintRemove hintr;
 
     private void Start()
     {
@@ -24,6 +25,7 @@ public class BatteryLid : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
                    activateObject.SetActive(true);
                    deactivateObject.SetActive(false);
                    cameraObject.SetActive(true);

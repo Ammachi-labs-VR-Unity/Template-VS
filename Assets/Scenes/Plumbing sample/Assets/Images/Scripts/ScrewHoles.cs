@@ -29,6 +29,8 @@ public class ScrewHoles : MonoBehaviour
     private static bool leftCompleted = false;
     private static bool rightCompleted = false;
 
+    public AudioSource drillAudio;
+
     public Collider othercollider;
 
     void Start()
@@ -125,6 +127,11 @@ public class ScrewHoles : MonoBehaviour
         if (targetAnimator != null && isHoldAnimationPlaying)
         {
             targetAnimator.speed = 1;
+
+            if (drillAudio != null && !drillAudio.isPlaying)
+            {
+                drillAudio.Play();
+            }
         }
         else
         {
@@ -138,6 +145,11 @@ public class ScrewHoles : MonoBehaviour
         {
             holdAnimationProgress = targetAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime;
             targetAnimator.speed = 0;
+
+            if (drillAudio != null && drillAudio.isPlaying)
+            {
+                drillAudio.Pause();
+            }
         }
     }
 
@@ -152,6 +164,11 @@ public class ScrewHoles : MonoBehaviour
                 targetAnimator.speed = 1;
                 isHoldAnimationPlaying = true;
             }
+
+            if (drillAudio != null && !drillAudio.isPlaying)
+            {
+                drillAudio.Play();
+            }
         }
     }
 
@@ -161,6 +178,7 @@ public class ScrewHoles : MonoBehaviour
         {
             if (positionType == "left" && !leftCompleted)
             {
+                drillAudio.Stop();
                 leftscrew.SetActive(true);
                 othercollider.enabled = true;
                 targetAnimator.Play(leftFinalAnimation);
@@ -168,6 +186,7 @@ public class ScrewHoles : MonoBehaviour
             }
             else if (positionType == "right" && !rightCompleted)
             {
+                drillAudio.Stop();
                 rightscrew.SetActive(true);
                 othercollider.enabled = true;
                 targetAnimator.Play(rightFinalAnimation);

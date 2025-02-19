@@ -15,6 +15,7 @@ public class BatteryBoxDrag : MonoBehaviour
     public GameObject markerball;
     public UnityEvent spiritscale;
     public Animator animo;
+    public HintRemove hintr;
 
     void Start()
     {
@@ -83,6 +84,7 @@ public class BatteryBoxDrag : MonoBehaviour
 
     IEnumerator DisableColliderAndInvokeEvent()
     {
+        hintr.hintdis();
         yield return new WaitForSeconds(0.5f);
 
         if (objectCollider != null)

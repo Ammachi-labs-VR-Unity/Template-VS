@@ -7,6 +7,7 @@ public class Faucet2Hose : MonoBehaviour
     public string animationname;
     public GameObject screwdriverPanel;
     public GameObject nextButton;
+    public HintRemove hintr;
 
     void Start()
     {
@@ -34,6 +35,7 @@ public class Faucet2Hose : MonoBehaviour
 
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
                     Debug.Log("Lid hit");
 
                     if (animator != null)

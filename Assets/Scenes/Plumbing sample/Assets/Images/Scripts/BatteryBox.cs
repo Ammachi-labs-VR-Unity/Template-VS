@@ -9,6 +9,7 @@ public class BatteryBox : MonoBehaviour
     public GameObject batteryBox2;
     public Animator batteryBoxAnimator;
     public string animationName;
+    public HintRemove hintr;
 
     void Start()
     {
@@ -35,6 +36,7 @@ public class BatteryBox : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    hintr.hintdis();
                     targetObject.SetActive(true);
                     batteryBox2.SetActive(true);
                     StartCoroutine(PlayBatteryBoxAnimation());

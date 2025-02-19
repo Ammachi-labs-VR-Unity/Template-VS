@@ -9,6 +9,7 @@ public class ClickChangeCamera : MonoBehaviour
     public GameObject hint1;
     public Button hintbtn;
     public UnityEvent quiz1;
+    public HintRemove hintr;
 
     private void Start()
     {
@@ -31,10 +32,8 @@ public class ClickChangeCamera : MonoBehaviour
                 {
                     if (targetObject != null)
                     {
-                        hintbtn.enabled = false;
+                        hintr.hintdis();
                         targetObject.SetActive(true);
-                        Outline script = hint1.GetComponent<Outline>();
-                        script.enabled = false;
                         hint1.GetComponent<Collider> ().enabled = false;
                         StartCoroutine(quizdelay());                        
 

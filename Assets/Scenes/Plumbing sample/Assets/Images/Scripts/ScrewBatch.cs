@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class ScrewBatch : MonoBehaviour
@@ -9,6 +10,8 @@ public class ScrewBatch : MonoBehaviour
     public string animationname2;
     public GameObject screwdriverPanel;
     public GameObject nextButton;
+    public HintRemove hintr;
+    public Button hintbtn;
 
     void Start()
     {
