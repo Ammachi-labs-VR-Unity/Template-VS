@@ -11,6 +11,8 @@ public class ConnectionScript : MonoBehaviour
     public GameObject nextButton;
     public HintRemove hintr;
     public Button hintbtn;
+    public AudioSource plierAudio;
+
 
     void Start()
     {
@@ -33,6 +35,7 @@ public class ConnectionScript : MonoBehaviour
                     hintbtn.interactable = false;
                     wrench.SetActive(true);
                     animator.Play(animationname);
+                    PlayPlierSound();
                     StartCoroutine(WaitForAnimation());
                 }
             }
@@ -49,5 +52,22 @@ public class ConnectionScript : MonoBehaviour
 
         screwdriverPanel.SetActive(true);
         nextButton.SetActive(true);
+        StopPlierSound();
+    }
+
+    void PlayPlierSound()
+    {
+        if (plierAudio != null && !plierAudio.isPlaying)
+        {
+            plierAudio.Play();
+        }
+    }
+
+    void StopPlierSound()
+    {
+        if (plierAudio != null && plierAudio.isPlaying)
+        {
+            plierAudio.Stop();
+        }
     }
 }

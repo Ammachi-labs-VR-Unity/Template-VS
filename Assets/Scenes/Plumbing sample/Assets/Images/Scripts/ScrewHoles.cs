@@ -35,6 +35,9 @@ public class ScrewHoles : MonoBehaviour
 
     void Start()
     {
+        leftCompleted = false;
+        rightCompleted = false;
+
         if (drill != null)
         {
             drillCollider = drill.GetComponent<BoxCollider>();
