@@ -29,10 +29,13 @@ public class PencilScript : MonoBehaviour
 
     private bool isPlaying = false;
 
+    public Collider Collider;
+
     void OnMouseDown()
     {
         if (!isPlaying)
         {
+            Collider.enabled = false;
             StartCoroutine(PlayAnimation());
         }
     }

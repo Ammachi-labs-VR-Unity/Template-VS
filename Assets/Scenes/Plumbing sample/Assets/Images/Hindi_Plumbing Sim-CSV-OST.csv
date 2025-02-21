@@ -1,0 +1,225 @@
+﻿Key,Id,English(en),Hindi(hi)
+Start,1.29E+11,Start,स्टार्ट
+This is a question,2.77E+11,This is a question,यह एक सवाल है
+Continue,2.78E+11,Continue,कंटिन्यू
+PLUMBING,2.79E+11,PLUMBING,प्लंबिंग
+QUIZ,2.82E+11,QUIZ,क्विज
+"This simulation is a training tool designed for educational purposes only and does not replace professional plumbing certification or hands - on experience under expert supervision. 
+
+While the steps demonstrated align with standard installation procedures, always refer to the manufacturer guidelines and local plumbing codes when performing actual installations.",5.06E+11,"This simulation is a training tool designed for educational purposes only and does not replace professional plumbing certification or hands on experience under expert supervision. 
+
+While the steps demonstrated align with standard installation procedures, always refer to the manufacturer guidelines and local plumbing codes when performing actual installations.","यह सिमुलेशन केवल शैक्षिक उद्देश्यों के लिए डिज़ाइन किया गया एक प्रशिक्षण उपकरण है और विशेषज्ञ पर्यवेक्षण के तहत अनुभव पर पेशेवर प्लंबिंग प्रमाणीकरण या हाथों को प्रतिस्थापित नहीं करता है। 
+
+जबकि चरणों ने मानक स्थापना प्रक्रियाओं के साथ संरेखित किया, हमेशा वास्तविक प्रतिष्ठानों का प्रदर्शन करते समय निर्माता दिशानिर्देशों और स्थानीय प्लंबिंग कोड को देखें। "
+Next,5.07E+11,Next,नेक्स्ट
+DISCLAIMER,5.08E+11,DISCLAIMER,डिस्क्लेमर
+"At the end of the simulation, you will be able to: 
+
+-> 	Demonstrate the step-by-step process of installing a 				sensor faucet.
+
+-> 	Troubleshoot common issues like leaks, sensor  					malfunctions and power failures.",5.18E+11,"At the end of the simulation, you will be able to: 
+
+-> 	Demonstrate the step-by-step process of installing a 				sensor faucet.
+
+-> 	Troubleshoot common issues like leaks, sensor  					malfunctions and power failures.","सिमुलेशन के अंत में, आप ये कर पाएंगे
+
+-> एक सेंसर फॉसेट को इंस्टॉल करने की चरण दर चरण प्रक्रिया दिखाना।
+
+-> सामान्य समस्याओं जैसे लीक, सेंसर में गड़बड़ी और पावर फेल्योर को हल करना।"
+OBJECTIVES,5.19E+11,OBJECTIVES,ओब्जेक्टिवेस
+PAUSED,8.59E+11,PAUSED,पॉज्ड
+RESTART,8.61E+11,RESTART,रीस्टार्ट
+SETTINGS,8.62E+11,SETTINGS,सेटिंग्स
+Sound FX,8.64E+11,Sound FX,साउंड
+Music,8.65E+11,Music,म्यूजिक
+English,8.65E+11,English,अंग्रेज़ी
+Volume,8.66E+11,Volume,वॉल्यूम
+Language,8.67E+11,Language,लैंग्वेज
+Option A,8.69E+11,Option A,विकल्प ए
+Hindi,8.71E+11,Hindi,हिंदी
+Client's tattoo selection,9.36E+11,Client's tattoo selection,ग्राहक का टैटू चयन
+Select a tattoo,9.37E+11,Select a tattoo,एक टैटू का चयन करें
+Troubleshoot a sensor faucet,9.38E+11,Troubleshoot a sensor faucet,एक सेंसर फॉसेट का निवारण करें
+Install a sensor faucet,9.38E+11,Install a sensor faucet,एक सेंसर फॉसेट इंस्टॉल करें
+Back,9.39E+11,Back,बैक
+Select Module,9.41E+11,Select Module,मॉड्यूल चुने
+Install a sensor faucet  Troubleshoot a sensor faucet,9.41E+11,Install a sensor faucet  Troubleshoot a sensor faucet,"एक सेंसर फॉसेट इंस्टॉल करें,  एक सेंसर फॉसेट का निवारण करें"
+Progress,9.84E+11,Progress,प्रोग्रेस
+Approach the Wash basin,9.93E+11,Approach the Wash basin,वॉश बेसिन के पास पहुंचें
+Locate the Wash basin area,9.93E+11,Locate the Wash basin area,वॉश बेसिन क्षेत्र का पता लगाएँ
+Let us get into the Sensor faucet installation Simulation. Click on the indicated area to reach the washbasin area.,9.94E+11,Let us get into the Sensor faucet installation Simulation. Click on the indicated area to reach the washbasin area.,"आइए, हम सेंसर नल इंस्टॉलेशन सिमुलेशन शुरू करते हैं।  वॉशबेसिन क्षेत्र तक पहुँचने के लिए दिए गए क्षेत्र पर क्लिक करें।"
+Why are sensor faucets considered more hygienic compares to traditional faucets?,1.01E+12,Why are sensor faucets considered more hygienic compares to traditional faucets?,सेंसर फॉसेट पारंपरिक  फॉसेट की तुलना में अधिक स्वच्छ क्यों माने जाते हैं?
+b) They do not require direct contact to operate.,1.01E+12,b) They do not require direct contact to operate.,बी) इन्हें चलाने के लिए सीधे संपर्क की आवश्यकता नहीं होती है।
+c) They use advanced cleaning solutions.,1.01E+12,c) They use advanced cleaning solutions.,सी) ये उन्नत सफाई समाधानों का उपयोग करते हैं।
+a) They are easier to clean.,1.01E+12,a) They are easier to clean.,ए) इन्हें साफ करना आसान होता है।
+d) They are made of antibacterial materials.,1.01E+12,d) They are made of antibacterial materials.,डी) ये एंटीबैक्टीरियल सामग्री से बने होते हैं।
+"Sorry, that answer is incorrect!",1.03E+12,"Sorry, that answer is incorrect!","माफ़ कीजिए, यह उत्तर गलत है!"
+Not quite. Think about what makes sensor faucet different in terms of usage and hygiene.,1.03E+12,Not quite. Think about what makes sensor faucet different in terms of usage and hygiene.,"सही जवाब नहीं है। सोचिए, सेंसर फॉसेट को इस्तेमाल और स्वच्छता के हिसाब से क्या अलग बनाता है।
+"
+Retry,1.03E+12,Retry,रीट्राई
+"Correct! Sensor faucets reduce direct contact, making then more hygienic.",1.05E+12,"Correct! Sensor faucets reduce direct contact, making then more hygienic.","सही! सेंसर फॉसेट सीधे संपर्क को कम करते हैं, जिससे वे अधिक स्वच्छ होते हैं।"
+AC Wire,1.07E+12,AC Wire,एसी वायर
+Spirit Scale,1.07E+12,Spirit Level,स्पिरिट लेवल
+Control Box,1.07E+12,Control Box,कन्ट्रोल बॉक्स
+Supply Hose,1.07E+12,Supply Hose,सप्लाई होज़
+COMPONENTS SELECTION,1.07E+12,COMPONENTS SELECTION,कंपोनेंट्स  सिलेक्शन
+Faucet,1.07E+12,Faucet,फॉसेट
+Drill,1.08E+12,Drill,ड्रिल
+Wrench,1.08E+12,Wrench,रिंच
+Select Components,1.08E+12,Select Components,कंपोनेंट्स चुने
+Select and inspect Components,1.08E+12,Select and inspect Components,कंपोनेंट्स चुने और निरीक्षण करें
+Click on the required components and add to the Toolbar.,1.08E+12,Click on the required components and add to the Toolbar.,आवश्यक कंपोनेंट्स पर क्लिक करें और टूलबार में जोड़ें।
+Goggles,1.11E+12,Goggles,गॉगल्स
+Long Sleeved Shirt,1.12E+12,Long Sleeved Shirt,लॉन्ग स्लीवड शर्ट
+SAFETY PPE SELECTION,1.12E+12,SAFETY PPE SELECTION,सुरक्षा पीपीई का चयन
+Gloves,1.12E+12,Gloves,ग्लव्स
+Take Safety PPE,1.12E+12,Take Safety PPE,सुरक्षा पीपीई लें
+Collect the materials,1.12E+12,Collect the materials,सामग्री एकत्र करें
+Collect all the safety materials to ensure safe installation.  -Gloves -Goggles -Long sleeved shirt.,1.12E+12,"Collect all the safety materials to ensure safe installation .Gloves ,Goggles ,Long sleeved shirt.","सुरक्षित स्थापना सुनिश्चित करने के लिए सभी सुरक्षा सामग्री एकत्र करें।  
+ग्लव्स ,गॉगल्स ,लॉन्ग स्लीवड शर्ट ।"
+Clean the Components,1.14E+12,Clean the Components,कंपोनेंट्स को साफ करें
+Clean the Faucet,1.14E+12,Clean the Faucet,फॉसेट को साफ करें
+"Now, let us clean the components, and the installation area using the provided soft cloth.  First let us clean the faucet. Select the faucet and drag the cloth on it to clean.",1.14E+12,"Now, let us clean the components, and the installation area using the provided soft cloth.  First let us clean the faucet. Select the faucet and drag the cloth on it to clean.","अब, दिए गए सॉफ्ट कपड़े से कंपोनेंट्स और इंस्टॉलेशन क्षेत्र को साफ करें। पहले फॉसेट को साफ करते हैं। फॉसेट को चुनें और उसे साफ करने के लिए कपड़ा घिसें।
+"
+Clean the Supply Hose,1.18E+12,Clean the Supply Hose,सप्लाई होज साफ करें
+"Next, let us clean the supply hose. Select the supply hose and drag the cloth on it to clean.",1.19E+12,"Next, let us clean the supply hose. Select the supply hose and drag the cloth on it to clean.","अब, सप्लाई होज को साफ करते हैं। सप्लाई होज को चुनें और उसे साफ करने के लिए कपड़ा घिसें।
+"
+Clean the control box,1.22E+12,Clean the control box,कंट्रोल बॉक्स साफ करें
+"Next, we must carefully clean the control box. Select the control box and drag the cloth on it to clean.",1.22E+12,"Next, we must carefully clean the control box. Select the control box and drag the cloth on it to clean.","अब, हमें कंट्रोल बॉक्स को सावधानी से साफ करना है। कंट्रोल बॉक्स को चुनें और उसे साफ करने के लिए 
+कपड़ा घिसें।"
+Clean the Wash Basin Area,1.25E+12,Clean the Wash Basin Area,वॉश बेसिन क्षेत्र साफ करें
+"Lastly, let us clean the area. Drag the cloth onto the area to clean it.",1.25E+12,"Lastly, let us clean the area. Drag the cloth onto the area to clean it.","अंत में, हमें क्षेत्र को साफ करना है। क्षेत्र पर कपड़ा घिसकर उसे साफ करें।"
+Install Faucet,1.27E+12,Install Faucet,फॉसेट इंस्टॉल करें
+Place the Faucet,1.28E+12,Place the Faucet,फॉसेट रखें
+It is time to place the faucet. Select the faucet from the toolbar and drag the faucet onto the faucet hole to insert it and place it there.,1.28E+12,It is time to place the faucet. Select the faucet from the toolbar and drag the faucet onto the faucet hole to insert it and place it there.,"अब फॉसेट रखने का समय है। टूलबार से फॉसेट चुनें और उसे फॉसेट के छेद में डालकर वहाँ रख दें।
+"
+Why is it important to install the control box at a level position?,1.33E+12,Why is it important to install the control box at a level position?,कंट्रोल बॉक्स को स्तर पर क्यों इंस्टॉल करना जरूरी है?
+b) To make future repairs easier,1.33E+12,b) To make future repairs easier,बी) भविष्य में मरम्मत को आसान बनाने के लिए
+c) To ensure the sensor works at maximum range,1.33E+12,c) To ensure the sensor works at maximum range,सी) यह सुनिश्चित करने के लिए कि सेंसर अधिकतम रेंज पर काम करे
+a) To prevent uneven water flow and potential leaks,1.33E+12,a) To prevent uneven water flow and potential leaks,ए) असमान पानी के प्रवाह और संभावित लीक को रोकने के लिए
+d) To reduce battery consumption,1.33E+12,d) To reduce battery consumption,डी) बैटरी की खपत को कम करने के लिए
+"Hmm, that is not the best choice. Consider how installation affects the faucetâ€™s overall performance.",1.34E+12,"Hmm, that is not the best choice. Consider how installation affects the faucetâ€™s overall performance.","हम्म, यह सबसे अच्छा विकल्प नहीं है। सोचिए कि इंस्टॉलेशन फॉसेट  के समग्र प्रदर्शन को कैसे प्रभावित करता है।
+"
+That is right! A level installation ensures proper water flow and prevents leaks,1.36E+12,That is right! A level installation ensures proper water flow and prevents leaks,सही है! स्तर पर इंस्टॉलेशन पानी के सही प्रवाह को सुनिश्चित करता है और लीक को रोकता है।
+Install Control Box,1.38E+12,Install Control Box,कंट्रोल बॉक्स इंस्टॉल करें
+Place Spirit Level,1.38E+12,Place Spirit Level,स्पिरिट लेवल रखें
+"Now, we will install the control box. First, select the Spirit Level from the toolbar and drag it on to the specified area.",1.38E+12,"Now, we will install the control box. First, select the Spirit Level from the toolbar and drag it on to the specified area.","अब, हम कंट्रोल बॉक्स इंस्टॉल करेंगे। पहले, टूलबार से स्पिरिट लेवल चुनें और इसे निर्दिष्ट क्षेत्र पर ले जाकर रखें।
+"
+Align the Spirit Scale,1.42E+12,Align the Spirit Scale,स्पिरिट स्केल को संरेखित करें
+"Now, we must level the spirit level. Use the bubble in the middle as a reference. Rotate and adjust it until the bubble is centered.",1.42E+12,"Now, we must level the spirit level. Use the bubble in the middle as a reference. Rotate and adjust it until the bubble is centered.","अब, हमें स्पिरिट लेवल को सीधा करना है। बीच में जो बबल है, उसे संदर्भ के रूप में इस्तेमाल करें। 
+इसे घुमाएं और तब तक समायोजित करें जब तक बबल बीच में न आ जाए।"
+Submit,1.43E+12,Submit,सबमिट
+Align the Control Box,1.51E+12,Align the Control Box,कंट्रोल बॉक्स को संरेखित करें
+"Now, we will position the control box. Select the control box from the toolbar, then drag and place it under the spirit level.",1.51E+12,"Now, we will position the control box. Select the control box from the toolbar, then drag and place it under the spirit level.","अब, हम कन्ट्रोल बॉक्स को जगह पर रखेंगे। टूलबार से  कन्ट्रोल बॉक्स का चयन करें, फिर इसे 
+खींचकर  स्पिरिट लेवल के नीचे रखें।"
+Install the Control Box,1.54E+12,Install the Control Box,कंट्रोल बॉक्स इंस्टॉल करें
+Mark the Drill Areas,1.54E+12,Mark the Drill Areas,ड्रिल करने के स्थानों को चिह्नित करें
+Click the pencil to mark the two holes on each side for drilling.,1.54E+12,Click the pencil to mark the two holes on each side for drilling.,पेंसिल पर क्लिक करें और ड्रिलिंग के लिए प्रत्येक तरफ दो छेद चिह्नित करें।
+Drill the Holes,1.59E+12,Drill the Holes,छेद ड्रिल करें
+Now let us drill the holes. Select the drill from the toolbar and click and hold to drill holes.,1.60E+12,Now let us drill the holes. Select the drill from the toolbar and click and hold to drill holes.,"अब, हम छेद ड्रिल करेंगे। टूलबार से ड्रिल चुनें और छेद करने के लिए क्लिक करके होल्स ड्रिल करें।
+"
+Secure the Control Box,1.68E+12,Secure the Control Box,कंट्रोल बॉक्स को सुरक्षित करें
+"Now to install the control box, drag and drop the control box and click the screwdriver to screw it in.",1.68E+12,"Now to install the control box, drag and drop the control box and click the screwdriver to screw it in.","अब, कंट्रोल बॉक्स इंस्टॉल करने के लिए, कंट्रोल बॉक्स खींचकर रखें और स्क्रूवड्राइवर पर क्लिक करें ताकि इसे स्क्रू किया जा सके।
+"
+"Now to install the control box, drag and drop the control box and click the holes to screw it in.",1.71E+12,"Now to install the control box, drag and drop the control box and click the holes to screw it in.","अब कंट्रोल बॉक्स इंस्टॉल करने के लिए, कंट्रोल बॉक्स खींचकर रखें और होल्स पर क्लिक करें ताकि 
+इसे स्क्रू किया जा सके।"
+Water Connection,1.80E+12,Water Connection,पानी कनेक्शन
+Connect Supply Hose properly,1.80E+12,Connect Supply Hose properly,सप्लाई होज को सही तरीके से कनेक्ट करें
+"Now to have water supplied to the faucet, we must connect the hoses properly. Select the supply hose from the toolbar and click the tool to tighten it.",1.80E+12,"Now to have water supplied to the faucet, we must connect the hoses properly. Select the supply hose from the toolbar and click the tool to tighten it.","फॉसेट को पानी देने के लिए , हमें  होसेस को सही तरीके से जोड़ना होगा। टूलबार से  सप्लाई होज़ का चयन करें और इसे कसने के लिए टूल पर क्लिक करें।"
+Connect Faucet Hose properly,1.89E+12,Connect Faucet Hose properly,फॉसेट होज को सही तरीके से कनेक्ट करें
+Click the faucet hose to connect it onto the control box.,1.90E+12,Click the faucet hose to connect it onto the control box.,फॉसेट होज पर क्लिक करें और इसे कंट्रोल बॉक्स से जोड़ें।
+Why do sensor faucets have both an AC power connection and a battery backup?,1.92E+12,Why do sensor faucets have both an AC power connection and a battery backup?,सेंसर फॉसेट में दोनों एसी पावर कनेक्शन और बैटरी बैकअप क्यों होते हैं?
+b) To ensure the faucet works during power outages,1.92E+12,b) To ensure the faucet works during power outages,बी) ताकि पावर कट के दौरान भी फॉसेट काम करता रहे
+c) To reduce electricity consumption,1.92E+12,c) To reduce electricity consumption,सी) बिजली की खपत कम करने के लिए
+a) To provide extra power for stronger water pressure,1.92E+12,a) To provide extra power for stronger water pressure,ए) ताकतवर पानी के दबाव के लिए अतिरिक्त पावर देने के लिए
+d) To allow users to choose between power sources,1.92E+12,d) To allow users to choose between power sources,डी) ताकि उपयोगकर्ता पावर स्रोत के बीच चयन कर सकें
+Not exactly. Try thinking about why sensor faucets might need a backup power source.,1.95E+12,Not exactly. Try thinking about why sensor faucets might need a backup power source.,"यह सही नहीं है। सोचिए कि सेंसर फॉसेट को बैकअप पावर स्रोत की क्यों आवश्यकता हो सकती है।
+"
+Correct! The battery backup ensures the faucets works even during power outages.,1.97E+12,Correct! The battery backup ensures the faucets works even during power outages.,सही! बैटरी बैकअप सुनिश्चित करता है कि पावर आउटेज के दौरान भी फॉसेट काम करता है।
+Powering up the Control Box,1.98E+12,Powering up the Control Box,कंट्रोल बॉक्स को पावर देना
+Remove the Battery Case,1.98E+12,Remove the Battery Case,बैटरी केस निकालें
+"Now, let us power the control box. First, remove the battery case by clicking the control box to take off the lid. Then, click the case.",1.98E+12,"Now, let us power the control box. First, remove the battery case by clicking the control box to take off the lid. Then, click the case.","अब, हम कंट्रोल बॉक्स को पावर देंगे। पहले, कंट्रोल बॉक्स पर क्लिक करके बैटरी केस का ढक्कन हटा लें। 
+फिर, केस पर क्लिक करें।"
+Place Batteries in the Case,2.01E+12,Place Batteries in the Case,बैटरी को केस में डालें
+Select the battery case and drop four batteries into the case and close it securely.,2.01E+12,Select the battery case and drop four batteries into the case and close it securely.,"बैटरी केस को चुनें और केस में चार बैटरियां डालें, फिर इसे अच्छी तरह से बंद कर दें।"
+Place the Case in the Control Box,2.03E+12,Place the Case in the Control Box,केस को कंट्रोल बॉक्स में रखें
+Drag and drop the case in the right place in the box.,2.03E+12,Drag and drop the case in the right place in the box.,केस को खींचकर बॉक्स में सही जगह पर रख दें।
+What type of maintenance is typically required for sensor faucets?,2.15E+12,What type of maintenance is typically required for sensor faucets?,सेंसर फॉसेट के लिए सामान्य रूप से किस प्रकार की देखभाल की आवश्यकता होती है?
+b) Changing sensor lenses every month,2.15E+12,b) Changing sensor lenses every month,बी) हर महीने सेंसर लेंस बदलना
+c) Replacing batteries periodically,2.15E+12,c) Replacing batteries periodically,सी) समय-समय पर बैटरियां बदलना
+a) Frequent lubrication of joints,2.15E+12,a) Frequent lubrication of joints,ए) जोड़ों की बार-बार चिकनाई करना
+d) Cleaning with harsh chemicals,2.15E+12,d) Cleaning with harsh chemicals,डी) कठोर रासायनिक पदार्थों से सफाई करना
+That is not quite right. Consider what kind of routine maintenance keeps a sensor faucet running smoothly.,2.16E+12,That is not quite right. Consider what kind of routine maintenance keeps a sensor faucet running smoothly.,"यह सही नहीं है। सोचिए, कौन सी नियमित देखभाल सेंसर फॉसेट को सुचारू रूप से चलाने में मदद करती है।"
+Exactly! Replacing batteries periodically keeps the sensor faucet functioning properly.,2.18E+12,Exactly! Replacing batteries periodically keeps the sensor faucet functioning properly.,बिल्कुल! बैटरियों को समय-समय पर बदलना सेंसर फॉसेट को सही तरीके से काम करता रहता है।
+Connect AC Wire and turn on,2.19E+12,Connect AC Wire and turn on,एसी वायर कनेक्ट करें और चालू करें
+Click the AC wire to get connected to the control box and socket.,2.19E+12,Click the AC wire to get connected to the control box and socket.,एसी वायर को कंट्रोल बॉक्स और सॉकेट से कनेक्ट करें।
+Turn the Valve and test Water inflow,2.21E+12,Turn the Valve and test Water inflow,वाल्व घुमाएं और पानी के प्रवाह की जांच करें
+"Now finally, let us test if it works! Click the valve to turn it on and click the hand below the faucet to test if it works.",2.21E+12,"Now finally, let us test if it works! Click the valve to turn it on and click the hand below the faucet to test if it works.","अब अंत में, चलिए इसे जांचते हैं कि यह काम करता है या नहीं! वाल्व को चालू करने के लिए क्लिक करें और
+फॉसेट के नीचे हाथ रखकर जांचें कि यह काम करता है या नहीं।"
+Test the Water flow,2.22E+12,Test the Water flow,पानी के प्रवाह की जांच करें
+"After installing the sensor faucet, you notice that the sensor does not light up red when detecting hands. However, the faucet is working perfectly. What is most likely the reason?",2.26E+12,"After installing the sensor faucet, you notice that the sensor does not light up red when detecting hands. However, the faucet is working perfectly. What is most likely the reason?","सेंसर फॉसेट को इनस्टॉल  करने के बाद, आप यह नोटिस करते हैं कि जब हाथ का पता लगता है, तो सेंसर लाल रोशनी नहीं देता है। हालांकि, फॉसेट पूरी तरह से काम कर रहा है। इसके पीछे सबसे संभावित कारण क्या हो सकता है?"
+b) The water supply is turned off,2.26E+12,b) The water supply is turned off,बी) पानी की सप्लाई बंद है
+c) The faucet uses a brush sensor instead of an infrared sensor,2.26E+12,c) The faucet uses a brush sensor instead of an infrared sensor,सी) फॉसेट  में इन्फ्रारेड सेंसर की बजाय ब्रश सेंसर है
+a) The faucet is not connected to the power supply,2.26E+12,a) The faucet is not connected to the power supply,ए)  फॉसेट  को पावर सप्लाई से कनेक्ट नहीं किया गया है
+d) The sensor is faulty and needs replacement,2.26E+12,d) The sensor is faulty and needs replacement,डी) सेंसर दोषपूर्ण है और उसे बदलने की आवश्यकता है
+"Hmm, that may not be the main reason. Think about how different types of sensors behave.",2.30E+12,"Hmm, that may not be the main reason. Think about how different types of sensors behave.","हम्म, यह मुख्य कारण नहीं हो सकता है। सोचें कि अलग-अलग प्रकार के सेंसर कैसे काम करते हैं।"
+"Unlike traditional infrared sensor faucets that emit a red light when detecting hands, brush sensor faucets operate without visible light indicators, relying on capacitive or motion-sensing technology instead.",2.31E+12,"Unlike traditional infrared sensor faucets that emit a red light when detecting hands, brush sensor faucets operate without visible light indicators, relying on capacitive or motion-sensing technology instead.","पारंपरिक इन्फ्रारेड सेंसर  फॉसेट  के मुकाबले जो हाथ का पता लगाते समय लाल रोशनी उत्सर्जित करते हैं, 
+ब्रश सेंसर फॉसेट  बिना किसी दृश्य रोशनी के संकेतक के काम करते हैं, और इसके बजाय कैपेसिटिव या 
+मोशन-सेंसिंग तकनीक का उपयोग करते हैं।"
+RECAP,2.32E+12,RECAP,रिकैप
+"This brings us to the end of the session. In this session, you have learned to navigate a sensor faucet installation simulation, covering key steps like cleaning and preparing the installation area, securely placing the faucet and control box and connecting hoses and wiring.",2.32E+12,"This brings us to the end of the session. In this session, you have learned to navigate a sensor faucet installation simulation, covering key steps like cleaning and preparing the installation area, securely placing the faucet and control box and connecting hoses and wiring.","यह सत्र समाप्ति की ओर बढ़ता है। इस सत्र में, आपने एक सेंसर फॉसेट इंस्टालेशन सिमुलेशन को नेविगेट करना सीखा, जिसमें प्रमुख कदम शामिल थे जैसे इंस्टालेशन क्षेत्र को साफ करना और तैयार करना, फॉसेट और कंट्रोल बॉक्स को सुरक्षित रूप से रखना, और होज़ और वायरिंग को कनेक्ट करना।"
+1) To enhance the battery's performance,2.34E+12,1) To enhance the battery's performance,1. बैटरी की प्रदर्शन को बढ़ाने के लिए
+"You try using the sensor faucet, but no water comes out. What will you do first? Select two correct options.",2.34E+12,"You try using the sensor faucet, but no water comes out. What will you do first? Select two correct options.","आप सेंसर फॉसेट का उपयोग करते हैं, लेकिन पानी नहीं निकलता है। सबसे पहले आप क्या करेंगे? 
+दो सही विकल्प चुनें।"
+c) Tap the faucets to see if it responds,2.34E+12,c) Tap the faucets to see if it responds,सी) फॉसेट को टैप करें देखें क्या यह प्रतिक्रिया करता है
+b) Check if hose connections are secure,2.34E+12,b) Check if hose connections are secure,बी) जांचें कि होज़ कनेक्शन सुरक्षित हैं या नहीं
+d) Turn the faucet handle harder,2.34E+12,d) Turn the faucet handle harder,डी) फॉसेट के हैंडल को ज्यादा जोर से घुमाएं
+a) Check if AC wire is secure,2.34E+12,a) Check if AC wire is secure,ए) जांचें कि एसी वायरर सुरक्षित है या नहीं
+That is not right. Consider what could be preventing the faucet from working at all. Checking key connections like the AC wire and hose should be your first step. Try again!,2.36E+12,That is not right. Consider what could be preventing the faucet from working at all. Checking key connections like the AC wire and hose should be your first step. Try again!,"यह सही नहीं है। विचार करें कि क्या चीज़ फॉसेट को काम करने से रोक सकती है। सबसे पहले एसी वायर और
+होज़ जैसे महत्वपूर्ण कनेक्शनों की जांच करना चाहिए। फिर से प्रयास करें!"
+Correct! Ensuring the AC wires and hose connections are secure is the best way to start troubleshooting. These are critical for the faucet to function properly.,2.44E+12,Correct! Ensuring the AC wires and hose connections are secure is the best way to start troubleshooting. These are critical for the faucet to function properly.,"सही! एसी वायर और होज़ कनेक्शनों को सुरक्षित करना ही ट्रबलशूटिंग शुरू करने का सबसे अच्छा तरीका है।
+ ये फॉसेट को सही तरीके से काम करने के लिए महत्वपूर्ण हैं।"
+Check Connections,2.45E+12,Check Connections,कनेक्शनों की जांच करें
+Inspect the AC wire connection,2.45E+12,Inspect the AC wire connection,एसी वायर कनेक्शन का निरीक्षण करें
+Check if the AC wire is properly connected to the power source. Click on it to secure any loose ends.,2.45E+12,Check if the AC wire is properly connected to the power source. Click on it to secure any loose ends.,जांचें कि एसी वायर सही तरीके से पावर स्रोत से जुड़ा हुआ है या नहीं। इसे सुरक्षित करने के लिए इसे क्लिक करें।
+Inspect the Hose Connections,2.48E+12,Inspect the Hose Connections,होज कनेक्शनों का निरीक्षण करें
+Inspect the hoses under the sink to ensure they are tightly connected. Click on a hose to secure it.,2.48E+12,Inspect the hoses under the sink to ensure they are tightly connected. Click on a hose to secure it.,"सिंक के नीचे होज़ की जांच करें ताकि यह सुनिश्चित हो सके कि वे कसकर जुड़े हुए हैं। किसी होज़ पर क्लिक 
+करें और इसे सुरक्षित करें।"
+"You checked the connections, but the water still is not coming out. What will you do next?",2.57E+12,"You checked the connections, but the water still is not coming out. What will you do next?","आपने कनेक्शन की जांच की, लेकिन पानी अब भी नहीं निकल रहा है। अब आप क्या करेंगे?"
+b) Shake the faucet to reset the sensor,2.57E+12,b) Shake the faucet to reset the sensor,बी) फॉसेट को हिलाकर सेंसर को रिसेट करें
+c) Increase the water pressure forcefully,2.57E+12,c) Increase the water pressure forcefully,सी) पानी का दबाव जोर से बढ़ाएं
+a) Call a plumber immediately,2.57E+12,a) Call a plumber immediately,ए) तुरंत एक प्लंबर को कॉल करें
+"d) Inspect and replace the battery, if necessary",2.57E+12,"d) Inspect and replace the battery, if necessary",डी) बैटरी का निरीक्षण करें और यदि आवश्यक हो तो बदलें
+That is not the best choice. Think about what could be preventing the water from flowing and consider checking essential components first.,2.59E+12,That is not the best choice. Think about what could be preventing the water from flowing and consider checking essential components first.,"यह सबसे अच्छा विकल्प नहीं है। सोचें कि पानी न निकलने की वजह क्या हो सकती है और पहले आवश्यक 
+कंपोनेंट्स  की जांच करें।"
+"Correct! If the connections are fine but the water isn't coming out, the issue might be with the battery. Inspecting and replacing it, if necessary, is the next logical step.",2.61E+12,"Correct! If the connections are fine but the water isn't coming out, the issue might be with the battery. Inspecting and replacing it, if necessary, is the next logical step.","सही! यदि कनेक्शन ठीक हैं लेकिन पानी नहीं आ रहा है, तो समस्या बैटरी से हो सकती है। बैटरी का निरीक्षण  और आवश्यकता होने पर उसे बदलना अगला तार्किक कदम है।"
+Replace the Batteries,2.61E+12,Replace the Batteries,बैटरियों को बदलें
+Open the Battery Case,2.62E+12,Open the Battery Case,बैटरी केस खोलें
+Locate the battery case inside the control box. Click the screwdriver to unscrew and then click box and reveal the battery case and then click the case.,2.62E+12,Locate the battery case inside the control box. Click the screwdriver to unscrew and then click box and reveal the battery case and then click the case.,"कंट्रोल बॉक्स के अंदर बैटरी केस को ढूंढें। स्क्रूड्राइवर पर क्लिक करें और फिर बॉक्स पर क्लिक करें ताकि बैटरी
+ केस दिखाई दे और फिर केस पर क्लिक करें।"
+Add New Batteries,2.71E+12,Add New Batteries,नई बैटरियां डालें
+Remove the old batteries by clicking on it and replace it with the new ones by clicking again.,2.71E+12,Remove the old batteries by clicking on it and replace it with the new ones by clicking again.,पुरानी बैटरियों को हटाने के लिए उस पर क्लिक करें और फिर नई बैटरियां डालने के लिए फिर से क्लिक करें।
+Testing,2.88E+12,Testing,परीक्षण
+Test the Faucet,2.88E+12,Test the Faucet,फॉसेट का परीक्षण करें
+Let us test if it works! Click the valve to turn it on and click the hand below the faucet to test if it works.,2.88E+12,Let us test if it works! Click the valve to turn it on and click the hand below the faucet to test if it works.,आइए इसे परीक्षण करें! वाल्व को चालू करने के लिए क्लिक करें और फॉसेट के नीचे हाथ रखकर जांचें कि यह काम करता है या नहीं।
+"The water is coming out too slowly, forming a weak stream. What will you do?",2.92E+12,"The water is coming out too slowly, forming a weak stream. What will you do?","पानी बहुत धीरे-धीरे आ रहा है, एक कमजोर धारा बन रही है। अब आप क्या करेंगे?"
+b) Reinstall the whole faucet.,2.92E+12,b) Reinstall the whole faucet.,बी) पूरे फॉसेट को फिर से स्थापित करें।
+c) Turn the water on and off quickly to flush it.,2.92E+12,c) Turn the water on and off quickly to flush it.,सी) पानी को जल्दी से चालू और बंद करें ताकि यह फ्लश हो जाए।
+"a) Remove and clean the filter, then reinstall it.",2.92E+12,"a) Remove and clean the filter, then reinstall it.","ए) फ़िल्टर को हटा कर साफ करें, फिर इसे फिर से इनस्टॉल  करें।"
+d) Shake the faucet to dislodge any blockages.,2.92E+12,d) Shake the faucet to dislodge any blockages.,डी) फॉसेट को हिलाएं ताकि किसी भी अवरोध को बाहर निकाला जा सके।
+That is not the best approach. Consider what might be restricting the water flow. Try focusing on a component that can get clogged over time.,2.94E+12,That is not the best approach. Consider what might be restricting the water flow. Try focusing on a component that can get clogged over time.,"यह सबसे अच्छा तरीका नहीं है। सोचें कि पानी के प्रवाह को क्या रोक सकता है। उस कॉम्पोनेन्ट  पर ध्यान 
+केंद्रित करने की कोशिश करें जो समय के साथ अवरुद्ध हो सकता है।"
+"Correct! A weak stream is often caused by a clogged filter. Removing, cleaning, and reinstalling it can help restore proper water flow.",2.95E+12,"Correct! A weak stream is often caused by a clogged filter. Removing, cleaning, and reinstalling it can help restore proper water flow.","सही! कमजोर धारा अक्सर एक अवरुद्ध फ़िल्टर के कारण होती है। इसे हटाकर, साफ करके और फिर से इनस्टॉल करके पानी का सही प्रवाह बहाल किया जा सकता है।"
+Clean the Filter,2.96E+12,Clean the Filter,फ़िल्टर को साफ करें
+Remove the Filter,2.96E+12,Remove the Filter,फ़िल्टर को निकालें
+Locate the filter inside the control box behind the supply hose. Click on supply hose to remove it and click again for the filter.,2.96E+12,Locate the filter inside the control box behind the supply hose. Click on supply hose to remove it and click again for the filter.,कंट्रोल बॉक्स के अंदर सप्लाई होज़ के पीछे फ़िल्टर को ढूंढें। सप्लाई होज़ पर क्लिक करें ताकि इसे हटा सकें और फिर फ़िल्टर पर क्लिक करें।
+Wipe the Filter,3.01E+12,Wipe the Filter,फ़िल्टर को पोंछें
+Use the cloth to remove dirt and debris from the filter. Drag the cloth onto the filter to use it.,3.01E+12,Use the cloth to remove dirt and debris from the filter. Drag the cloth onto the filter to use it.,कपड़े का उपयोग करके फ़िल्टर से गंदगी और मलबा हटा लें। फ़िल्टर पर कपड़ा खींचकर इसका उपयोग करें।
+Reinstall the Filter,3.05E+12,Reinstall the Filter,फ़िल्टर को फिर से इनस्टॉल करें
+Place the cleaned filter back into the control box by clicking on it and then click again to tighten the supply hose.,3.05E+12,Place the cleaned filter back into the control box by clicking on it and then click again to tighten the supply hose.,"साफ किया हुआ फ़िल्टर को कंट्रोल बॉक्स में वापस रखें, इसके लिए फ़िल्टर पर क्लिक करें और फिर सप्लाई होज़ को कसने के लिए फिर से क्लिक करें।"
+Success! You have fixed the Sensor Faucet!,3.18E+12,Success! You have fixed the Sensor Faucet!,सफलता! आपने सेंसर फॉसेट को फिक्स कर दिया
+"This brings us to the end of the session. In this session, you have learned to troubleshoot a sensor faucet by identifying and resolving common issues. You covered key steps like checking AC wire and hose connections, replacing the battery if needed, and cleaning and reinstalling the filter to restore proper water flow.",3.19E+12,"This brings us to the end of the session. In this session, you have learned to troubleshoot a sensor faucet by identifying and resolving common issues. You covered key steps like checking AC wire and hose connections, replacing the battery if needed, and cleaning and reinstalling the filter to restore proper water flow.","यह सत्र समाप्ति की ओर बढ़ता है। इस सत्र में, आपने सेंसर फॉसेट की समस्या को हल करना सीखा, सामान्य समस्याओं की पहचान की और उन्हें ठीक किया। आपने महत्वपूर्ण कदमों को कवर किया जैसे कि एसी वायर  और होज़ कनेक्शनों की जांच करना, आवश्यकता होने पर बैटरी बदलना, और पानी के प्रवाह को सामान्य करने  के लिए फ़िल्टर को साफ करना और फिर से इनस्टॉल करना।"
+SCORE,3.21E+12,SCORE,स्कोर
+Min,3.21E+12,Min,मिन
+CONGRATULATIONS,3.21E+12,Min,मिन
+Hints,3.21E+12,Hints,हिंट्स

@@ -1,13 +1,14 @@
 using UnityEngine;
 using System.Collections;
 
-public class Faucet2Hose : MonoBehaviour
+public class Faucet2Hose1 : MonoBehaviour
 {
     private Animator animator;
     public string animationname;
     public GameObject screwdriverPanel;
     public GameObject nextButton;
     public HintRemove hintr;
+    public Collider ccollider;
 
     void Start()
     {
@@ -36,6 +37,7 @@ public class Faucet2Hose : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     hintr.hintdis();
+                    ccollider.enabled = false;
                     Debug.Log("Lid hit");
 
                     if (animator != null)

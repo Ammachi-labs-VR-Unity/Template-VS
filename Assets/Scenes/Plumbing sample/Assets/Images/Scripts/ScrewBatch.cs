@@ -12,6 +12,7 @@ public class ScrewBatch : MonoBehaviour
     public GameObject nextButton;
     public HintRemove hintr;
     public Button hintbtn;
+    public Collider Collider;
 
     void Start()
     {
@@ -39,6 +40,8 @@ public class ScrewBatch : MonoBehaviour
 
                 if (hit.collider.gameObject == gameObject)
                 {
+
+                    Collider.enabled = false;
                     Debug.Log("Lid hit");
 
                     if (animator != null)

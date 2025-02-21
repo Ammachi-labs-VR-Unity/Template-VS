@@ -9,11 +9,13 @@ public class FaucetHoseScript1 : MonoBehaviour
     public GameObject nextButton;
     public HintRemove hintr;
     public AudioSource clickAudio;
+    Collider Collider;
 
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        Collider = GetComponent<Collider>();
         screwdriverPanel.SetActive(false);
         nextButton.SetActive(false);
     }
@@ -30,6 +32,7 @@ public class FaucetHoseScript1 : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     hintr.hintdis();
+                    Collider.enabled = false;
                     animator.Play(animationname);
                     PlayClickSound();
                     StartCoroutine(WaitForAnimation());

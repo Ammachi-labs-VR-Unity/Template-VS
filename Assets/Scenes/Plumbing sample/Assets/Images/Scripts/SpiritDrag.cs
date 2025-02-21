@@ -16,6 +16,9 @@ public class SpiritDrag : MonoBehaviour
     public UnityEvent spiritscale;
     public HintRemove hintr;
 
+    public Vector3 minBounds = new Vector3(-5f, 0f, -5f);
+    public Vector3 maxBounds = new Vector3(5f, 5f, 5f);
+
 
     void Start()
     {
@@ -63,9 +66,13 @@ public class SpiritDrag : MonoBehaviour
 
     void DragObjectWithMouse()
     {
-        Vector3 newPosition = GetMouseWorldPosition() + offset;
+        Vector3 newPosition = transform.parent.InverseTransformPoint(GetMouseWorldPosition() + offset);
 
-        transform.position = new Vector3(transform.position.x, newPosition.y, newPosition.z);
+        float clampedX = Mathf.Clamp(newPosition.x, minBounds.x, maxBounds.x);
+        float clampedY = Mathf.Clamp(newPosition.y, minBounds.y, maxBounds.y);
+        float clampedZ = Mathf.Clamp(newPosition.z, minBounds.z, maxBounds.z);
+
+        transform.position = transform.parent.TransformPoint(new Vector3(clampedX, clampedY, clampedZ));
     }
 
     void TrySnapToTarget()
@@ -86,13 +93,8 @@ public class SpiritDrag : MonoBehaviour
     IEnumerator DisableColliderAndInvokeEvent()
     {
         hintr.hintdis();
+        objectCollider.enabled = false;
         yield return new WaitForSeconds(0.5f);
-
-        if (objectCollider != null)
-        {
-            objectCollider.enabled = false;
-            Debug.Log("Collider disabled.");
-        }
 
         spiritscale.Invoke();
 
