@@ -38,19 +38,9 @@ public class ScrewHoles : MonoBehaviour
         leftCompleted = false;
         rightCompleted = false;
 
-        if (drill != null)
-        {
-            drillCollider = drill.GetComponent<BoxCollider>();
-            if (drillCollider != null)
-            {
-                drillCollider.enabled = false;
-            }
-        }
+        drillCollider.enabled = false;
 
-        if (nextButton != null)
-        {
-            nextButton.SetActive(false);
-        }
+        nextButton.SetActive(false);
     }
 
     void OnMouseDown()

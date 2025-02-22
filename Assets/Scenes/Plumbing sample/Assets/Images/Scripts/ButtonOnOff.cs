@@ -5,18 +5,17 @@ public class ButtonOnOff : MonoBehaviour
 {
     public Button toggleButton;
     public Image targetImage;
-    private bool isImageVisible = false;
 
     void Start()
     {
-        toggleButton.onClick.AddListener(ToggleImageVisibility);
-        targetImage.gameObject.SetActive(isImageVisible);
-
+        targetImage.gameObject.SetActive(false);
+        toggleButton.onClick.AddListener(EnableImage);
     }
 
-    void ToggleImageVisibility()
+    void EnableImage()
     {
-        isImageVisible = !isImageVisible;
-        targetImage.gameObject.SetActive(isImageVisible);
+        targetImage.gameObject.SetActive(true);
+        toggleButton.interactable = false;
+        toggleButton.onClick.RemoveListener(EnableImage);
     }
 }

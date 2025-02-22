@@ -11,10 +11,12 @@ public class ScrewdriverScript : MonoBehaviour
     public HintRemove hintr;
     public Button hintbtn;
     public AudioSource screwdriverAudio;
+    Collider Collider;
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>(); 
+        Collider = GetComponent<Collider>();
         screwdriverPanel.SetActive(false);
         nextButton.SetActive(false);
     }
@@ -30,6 +32,7 @@ public class ScrewdriverScript : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+                    Collider.enabled = false;
                     hintr.hintdis();
                     hintbtn.interactable = false;
                     animator.Play(animationname);

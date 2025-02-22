@@ -83,6 +83,7 @@ public class BatteryBoxDrag : MonoBehaviour
         if (distance <= snapThreshold)
         {
             transform.position = snapTarget.position;
+            objectCollider.enabled = false;
             Debug.Log("Object snapped to target. Collider will be disabled in 2 seconds.");
             markerball.SetActive(false);
             StartCoroutine(DisableColliderAndInvokeEvent());
@@ -92,12 +93,8 @@ public class BatteryBoxDrag : MonoBehaviour
     IEnumerator DisableColliderAndInvokeEvent()
     {
         hintr.hintdis();
-        objectCollider.enabled = false;
-
         
-        yield return new WaitForSeconds(0.5f);
-
-        
+        yield return new WaitForSeconds(0.5f);        
 
         spiritscale.Invoke();
 

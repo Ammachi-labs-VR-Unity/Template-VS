@@ -16,9 +16,11 @@ public class FaucetDrag1 : MonoBehaviour
     public GameObject quizenable;
     public HintRemove hintr;
 
-    // New variables:
     public GameObject otherGameObject;
     public Button hintBtn;
+
+    public Vector3 minBounds = new Vector3(-5f, 0f, -5f);
+    public Vector3 maxBounds = new Vector3(5f, 5f, 5f);
 
     private bool hintClicked = false;
 
@@ -77,8 +79,13 @@ public class FaucetDrag1 : MonoBehaviour
 
     void DragObjectWithMouse()
     {
-        Vector3 newPosition = GetMouseWorldPosition() + offset;
-        transform.position = new Vector3(transform.position.x, newPosition.y, newPosition.z);
+        Vector3 localPos = transform.parent.InverseTransformPoint(GetMouseWorldPosition() + offset);
+
+        localPos.x = Mathf.Clamp(localPos.x, minBounds.x, maxBounds.x);
+        localPos.y = Mathf.Clamp(localPos.y, minBounds.y, maxBounds.y);
+        localPos.z = Mathf.Clamp(localPos.z, minBounds.z, maxBounds.z);
+
+        transform.position = transform.parent.TransformPoint(localPos);
     }
 
     void TrySnapToTarget()
@@ -90,6 +97,7 @@ public class FaucetDrag1 : MonoBehaviour
         if (distance <= snapThreshold)
         {
             transform.position = snapTarget.position;
+            objectCollider.enabled = false;
             StartCoroutine(DisableColliderAndInvokeEvent());
         }
     }
@@ -97,7 +105,6 @@ public class FaucetDrag1 : MonoBehaviour
     IEnumerator DisableColliderAndInvokeEvent()
     {
         hintr.hintdis();
-        objectCollider.enabled = false;
 
         yield return new WaitForSeconds(2f);
 

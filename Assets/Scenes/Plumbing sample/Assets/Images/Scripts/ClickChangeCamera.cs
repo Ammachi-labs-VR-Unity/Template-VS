@@ -13,10 +13,7 @@ public class ClickChangeCamera : MonoBehaviour
 
     private void Start()
     {
-        if (targetObject != null)
-        {
-            targetObject.SetActive(false);
-        }
+        targetObject.SetActive(false);
     }
 
     private void Update()
@@ -31,10 +28,10 @@ public class ClickChangeCamera : MonoBehaviour
                 if (hit.collider.gameObject == hint1)
                 {
                     if (targetObject != null)
-                    {
+                    {                        
+                        hint1.GetComponent<Collider> ().enabled = false;
                         hintr.hintdis();
                         targetObject.SetActive(true);
-                        hint1.GetComponent<Collider> ().enabled = false;
                         StartCoroutine(quizdelay());                        
 
                     }                    
