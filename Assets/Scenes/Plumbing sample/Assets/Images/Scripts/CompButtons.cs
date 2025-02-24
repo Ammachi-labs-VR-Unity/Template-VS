@@ -19,8 +19,6 @@ public class CompButtons : MonoBehaviour
         {
             continuebtn.SetActive(false);
         }
-
-        //continuebtn.interactable = allActive;
     }
 
     private bool allareActive()
