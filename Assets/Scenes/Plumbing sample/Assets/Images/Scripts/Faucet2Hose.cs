@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Faucet2Hose1 : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Faucet2Hose1 : MonoBehaviour
     public GameObject nextButton;
     public HintRemove hintr;
     public Collider ccollider;
+    public hintManager hintManager;
+    public Button hintButton;
 
     void Start()
     {
@@ -39,6 +42,8 @@ public class Faucet2Hose1 : MonoBehaviour
                     hintr.hintdis();
                     ccollider.enabled = false;
                     Debug.Log("Lid hit");
+                    hintManager.hintupdate();
+                    hintButton.interactable = true;
 
                     if (animator != null)
                     {
