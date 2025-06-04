@@ -1,8 +1,8 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
-using QuickOutline;
-using Outline = QuickOutline.Outline;
+//using QuickOutline;
+//using Outline = QuickOutline.Outline;
 public class HintRemove : MonoBehaviour
 {
     public static HintRemove Instance;
