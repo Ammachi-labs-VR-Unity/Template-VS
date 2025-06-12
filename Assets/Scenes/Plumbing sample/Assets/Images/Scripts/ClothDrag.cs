@@ -13,6 +13,8 @@ public class ClothDrag : MonoBehaviour
     public float minY = 0f, maxY = 10f;
     public float minZ = -5f, maxZ = 5f;
 
+    public GameObject clothDragIcon;
+
     void Start()
     {
         activeCamera = Camera.main;
@@ -33,6 +35,7 @@ public class ClothDrag : MonoBehaviour
         if (isDragging)
         {
             DragObjectWithMouse();
+            clothDragIcon.SetActive(false);
         }
 
         if (Input.GetMouseButtonUp(0))

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ClothScript : MonoBehaviour
 {
     private Vector3 originalPosition;
+    //public GameObject clothDragIcon;
 
     void Start()
     {
@@ -68,4 +69,16 @@ public class ClothScript : MonoBehaviour
     {
         transform.position = originalPosition;
     }
+
+    //private void Update()
+    //{
+    //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+    //    if(Physics.Raycast(ray, out RaycastHit hit))
+    //    {
+    //        if (hit.collider.gameObject == this.gameObject)
+    //        {
+    //            clothDragIcon.gameObject.SetActive(false);
+    //        }
+    //    }
+    //}
 }

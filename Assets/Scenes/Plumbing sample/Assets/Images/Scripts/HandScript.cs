@@ -8,6 +8,7 @@ public class HandScript : MonoBehaviour
     public string animationname;
     public GameObject screwdriverPanel;
     public GameObject nextButton;
+    public GameObject congratsPanel;
     public GameObject waterflow;
     public Collider handcollider;
     public HintRemove hintr;
@@ -58,6 +59,7 @@ public class HandScript : MonoBehaviour
 
         screwdriverPanel.SetActive(true);
         nextButton.SetActive(true);
+        congratsPanel.SetActive(true);
     }
 
     void PlayWaterSound()

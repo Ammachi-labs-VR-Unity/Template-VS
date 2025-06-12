@@ -42,7 +42,7 @@ public class Faucet2Hose1 : MonoBehaviour
                     hintr.hintdis();
                     ccollider.enabled = false;
                     Debug.Log("Lid hit");
-                    //hintManager.hintupdate();
+                    hintManager.hintupdate();
                     hintButton.interactable = true;
 
                     if (animator != null)
