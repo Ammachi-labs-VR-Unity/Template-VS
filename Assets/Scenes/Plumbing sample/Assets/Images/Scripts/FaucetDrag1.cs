@@ -67,7 +67,7 @@ public class FaucetDrag1 : MonoBehaviour
             {
                 if (hintClicked && otherGameObject != null)
                 {
-                    otherGameObject.SetActive(false);
+                    otherGameObject.SetActive(true);
                 }
 
                 isDragging = true;

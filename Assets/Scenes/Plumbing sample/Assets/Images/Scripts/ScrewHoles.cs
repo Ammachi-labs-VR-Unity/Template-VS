@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,6 +34,8 @@ public class ScrewHoles : MonoBehaviour
     public AudioSource drillAudio;
 
     public Collider othercollider;
+
+    public List<GameObject> spheres = new();
 
     void Start()
     {
@@ -201,6 +205,11 @@ public class ScrewHoles : MonoBehaviour
         {
             drillpanel.SetActive(true);
             nextButton.SetActive(true);
+
+            foreach (GameObject sphere in spheres)
+            {
+                sphere.SetActive(false);
+            }
         }
     }
 }
