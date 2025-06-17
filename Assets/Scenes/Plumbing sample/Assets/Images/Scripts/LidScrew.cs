@@ -5,6 +5,7 @@ public class LidScrew : MonoBehaviour
 {
     public GameObject screwdriver;
     public GameObject cam;
+    //public GameObject cam1;
     public Animator animator;
     public string anima;
     public GameObject environment;
