@@ -42,6 +42,7 @@ public class ScrewBatch : MonoBehaviour
                 {
 
                     Collider.enabled = false;
+                    this .gameObject.GetComponent<Outline>().enabled = false;
                     Debug.Log("Lid hit");
 
                     if (animator != null)
