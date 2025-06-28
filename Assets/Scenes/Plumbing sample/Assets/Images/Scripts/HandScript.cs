@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Events;
 
 public class HandScript : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class HandScript : MonoBehaviour
     public Button hintbtn;
     public AudioSource waterAudio;
 
+    public UnityEvent onClickEvent;
 
     void Start()
     {
@@ -68,5 +70,10 @@ public class HandScript : MonoBehaviour
         {
             waterAudio.Play();
         }
+    }
+
+    void OnMouseDown()
+    {
+        onClickEvent?.Invoke();
     }
 }

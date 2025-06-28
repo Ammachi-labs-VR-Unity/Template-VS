@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Batterybox_top_lid : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class Batterybox_top_lid : MonoBehaviour
     public string animstring;
     public GameObject camdis;
     public HintRemove hintr;
+
+    public UnityEvent onClickEvent;
     void Start()
     {
         batteryBoxAnimator = GetComponent<Animator>();
@@ -14,6 +17,7 @@ public class Batterybox_top_lid : MonoBehaviour
 
     void Update()
     {
+        
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -30,5 +34,10 @@ public class Batterybox_top_lid : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void OnMouseDown()
+    {
+        onClickEvent?.Invoke();
     }
 }

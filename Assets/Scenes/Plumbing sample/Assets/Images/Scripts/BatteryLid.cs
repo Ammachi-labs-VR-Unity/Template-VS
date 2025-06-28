@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using static UnityEngine.Rendering.DebugUI;
 
 public class BatteryLid : MonoBehaviour
@@ -8,6 +9,8 @@ public class BatteryLid : MonoBehaviour
     public GameObject cameraObject;
     public HintRemove hintr;
 
+
+    public UnityEvent onClickEvent;
     private void Start()
     {
         activateObject.SetActive(false);
@@ -32,5 +35,10 @@ public class BatteryLid : MonoBehaviour
                 }
             }
         }
+    }
+
+    void OnMouseDown()
+    {
+        onClickEvent?.Invoke();
     }
 }

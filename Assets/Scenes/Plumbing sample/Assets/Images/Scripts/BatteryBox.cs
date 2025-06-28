@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 public class BatteryBox : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class BatteryBox : MonoBehaviour
     public Animator batteryBoxAnimator;
     public string animationName;
     public HintRemove hintr;
+
+    public UnityEvent onClickEvent;
 
     void Start()
     {
@@ -45,6 +48,11 @@ public class BatteryBox : MonoBehaviour
         }
     }
 
+    void OnMouseDown()
+    {
+        onClickEvent?.Invoke();
+    }
+
     private IEnumerator PlayBatteryBoxAnimation()
     {
         yield return new WaitForSeconds(2f);
@@ -61,4 +69,6 @@ public class BatteryBox : MonoBehaviour
             nextButton.SetActive(true);
         }
     }
+
+
 }
