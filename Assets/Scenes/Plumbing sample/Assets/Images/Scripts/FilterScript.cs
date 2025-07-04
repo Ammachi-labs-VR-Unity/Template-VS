@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Events;
 
 public class FilterScript : MonoBehaviour
 {     
@@ -14,6 +15,7 @@ public class FilterScript : MonoBehaviour
     public Collider objectCollider;
     public HintRemove hintr;
     public Button hintbtn;
+    public UnityEvent onClick;
 
     void Start()
     {
@@ -30,12 +32,13 @@ public class FilterScript : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-
+            
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
             {
                 hintr.hintdis();
                 hintbtn.interactable = false;
                 StartCoroutine(PlayAnimations());
+                onClick?.Invoke(); // Invoke the UnityEvent if assigned
             }
         }
     }

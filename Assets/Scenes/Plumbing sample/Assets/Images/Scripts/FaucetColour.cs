@@ -17,6 +17,7 @@ public class FaucetColour : MonoBehaviour
     private bool isObjectInside = false;
     private bool isMoving = false;
     private Vector3 lastPosition;
+    private bool isWaiting = false;
 
     void Start()
     {
@@ -26,12 +27,18 @@ public class FaucetColour : MonoBehaviour
 
     void Update()
     {
-        if (isObjectInside && isMoving)
+        if (isObjectInside && isMoving && !isWaiting)
         {
-            Transition();
+            isWaiting = true;
+            StartCoroutine(DelayedFaucetChange());
         }
     }
 
+    IEnumerator DelayedFaucetChange()
+    {
+        yield return new WaitForSeconds(2f); // 2 second delay
+        FaucetChangeComplete();
+    }
     void Transition()
     {
         targetPoint += Time.deltaTime / time;

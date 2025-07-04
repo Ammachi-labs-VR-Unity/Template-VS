@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class PencilScript : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class PencilScript : MonoBehaviour
     private bool isPlaying = false;
 
     public Collider Collider;
+    public Button hintbtn;
 
     void OnMouseDown()
     {
@@ -37,6 +39,7 @@ public class PencilScript : MonoBehaviour
         {
             Collider.enabled = false;
             StartCoroutine(PlayAnimation());
+            hintbtn.interactable = false;
         }
     }
 

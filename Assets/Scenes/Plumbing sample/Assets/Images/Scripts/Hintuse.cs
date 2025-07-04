@@ -163,6 +163,7 @@ public class Hintuse : MonoBehaviour
                 Outline script = hint16.GetComponent<Outline>();
                 script.enabled = true;
                 hintbtn.interactable = false;
+                Debug.Log("Hint Clicked!");
             }
             
             else if (hintm.hintCount == 17)
@@ -252,6 +253,7 @@ public class Hintuse : MonoBehaviour
                 Outline script = hint29.GetComponent<Outline>();
                 script.enabled = true;
                 hintbtn.interactable = false;
+                Debug.Log("Hint Clicked!");
             }
             
             else if (hintm.hintCount == 30)
@@ -294,6 +296,7 @@ public class Hintuse : MonoBehaviour
                 Outline script = hint35.GetComponent<Outline>();
                 script.enabled = true;
                 hintbtn.interactable = false;
+                Debug.Log("Hint Clicked!");
             }
             
             else if (hintm.hintCount == 36)

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class FaucetHoseScript : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class FaucetHoseScript : MonoBehaviour
     public GameObject screwdriverPanel;
     public GameObject nextButton;
     public HintRemove hintr;
+    private int check = 0;
+    public Button hintbtn;
 
     void Start()
     {
@@ -18,8 +21,14 @@ public class FaucetHoseScript : MonoBehaviour
 
     void Update()
     {
+        //if(check != 0)
+        //{
+        //    return; // Prevents multiple clicks from triggering the animation
+        //}
         if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log("Mouse clicked on valve");
+            //check = 1; // Set check to 1 to prevent further clicks until the animation is done
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
@@ -30,6 +39,7 @@ public class FaucetHoseScript : MonoBehaviour
                     hintr.hintdis();
                     animator.Play(animationname);
                     StartCoroutine(WaitForAnimation());
+                    hintbtn.interactable = false;
                 }
             }
         }
